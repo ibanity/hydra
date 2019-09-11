@@ -25,13 +25,11 @@ require (
 	github.com/mattn/go-runewidth v0.0.4 // indirect
 	github.com/meatballhat/negroni-logrus v0.0.0-20170801195057-31067281800f
 	github.com/mendsley/gojwk v0.0.0-20141217222730-4d5ec6e58103
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826
 	github.com/oleiade/reflections v1.0.0
 	github.com/olekukonko/tablewriter v0.0.1
 	github.com/opentracing/opentracing-go v1.1.0
-	github.com/ory/fosite v0.29.7
+	github.com/ory/fosite v0.29.8
 	github.com/ory/go-acc v0.0.0-20181118080137-ddc355013f90
 	github.com/ory/graceful v0.1.1
 	github.com/ory/herodot v0.6.0
@@ -61,5 +59,9 @@ require (
 
 replace git.apache.org/thrift.git => github.com/apache/thrift v0.0.0-20180902110319-2566ecd5d999
 
+replace github.com/ory/fosite => github.com/ibanity/fosite v0.29.8-ibanity
+
 // Fix for https://github.com/golang/lint/issues/436
 replace github.com/golang/lint => github.com/golang/lint v0.0.0-20190227174305-8f45f776aaf1
+
+go 1.13
